@@ -447,8 +447,6 @@ public class CustomKeyboardApp extends InputMethodService implements KeyboardVie
             @Override
             public void audioResult(String audio) {
                 inputConnection.commitText(audio,audio.length());
-                //mComposing.setLength(0);
-                //mComposing.append(audio);
             }
         });
         return;
