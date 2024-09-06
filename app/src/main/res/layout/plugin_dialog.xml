@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_margin="@dimen/keyboard_bottom_margin"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_above="@+id/cancel"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/keyboard_bottom_margin"
+        android:paddingRight="@dimen/keyboard_bottom_margin"
+        android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:text="@string/heading"
+        style="@style/PluginText"
+        android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+    </androidx.appcompat.widget.AppCompatTextView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:text="@string/v0"
+        android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+        style="@style/PluginTextNormal"
+        android:layout_height="wrap_content">
+    </androidx.appcompat.widget.AppCompatTextView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:text="@string/v0_text"
+        android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+        style="@style/PluginTextNormal"
+        android:layout_height="wrap_content">
+    </androidx.appcompat.widget.AppCompatTextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+        android:layout_height="1dp">
+    </View>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:text="@string/v1"
+        android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+        style="@style/PluginTextNormal"
+        android:layout_height="wrap_content">
+    </androidx.appcompat.widget.AppCompatTextView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:text="@string/v1_text"
+        android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+        style="@style/PluginTextNormal"
+        android:layout_height="wrap_content">
+    </androidx.appcompat.widget.AppCompatTextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+        android:layout_height="1dp">
+    </View>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:text="@string/v2"
+            android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+            style="@style/PluginTextNormal"
+            android:layout_height="wrap_content">
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:text="@string/v2_text"
+            android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+            style="@style/PluginTextNormal"
+            android:layout_height="wrap_content">
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/black"
+            android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+            android:layout_height="1dp">
+        </View>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:text="@string/v3"
+            android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+            style="@style/PluginTextNormal"
+            android:layout_height="wrap_content">
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:text="@string/v3_text"
+            android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+            style="@style/PluginTextNormal"
+            android:layout_height="wrap_content">
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/black"
+            android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+            android:layout_height="1dp">
+        </View>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:text="@string/v4"
+            android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+            style="@style/PluginTextNormal"
+            android:layout_height="wrap_content">
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:text="@string/v4_text"
+            android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+            style="@style/PluginTextNormal"
+            android:layout_height="wrap_content">
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/black"
+            android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+            android:layout_height="1dp">
+        </View>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:text="@string/v5"
+            android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+            style="@style/PluginTextNormal"
+            android:layout_height="wrap_content">
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:text="@string/v5_text"
+            android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+            style="@style/PluginTextNormal"
+            android:layout_height="wrap_content">
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/black"
+            android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+            android:layout_height="1dp">
+        </View>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:text="@string/v6"
+            android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+            style="@style/PluginTextNormal"
+            android:layout_height="wrap_content">
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:text="@string/v6_text"
+            android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+            style="@style/PluginTextNormal"
+            android:layout_height="wrap_content">
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/black"
+            android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+            android:layout_height="1dp">
+        </View>
+
+    </LinearLayout>
+    </ScrollView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:id="@+id/cancel"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black"
+        android:text="@string/cancel"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:layout_height="50dp">
+    </androidx.appcompat.widget.AppCompatButton>
+
+</RelativeLayout>

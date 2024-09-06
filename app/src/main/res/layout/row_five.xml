@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="viewModel"
+            type="com.keyboardai42.viewmodel.MainActivityViewModel" />
+    </data>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_marginLeft="@dimen/keyboard_left_margin"
+        android:layout_marginRight="@dimen/keyboard_left_margin"
+        android:layout_marginBottom="@dimen/keyboard_bottom_margin"
+        android:layout_height="@dimen/keyboard_row_height">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="@dimen/keyboard_123_button_width"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="@{viewModel::changeButtonClick}"
+            android:foreground="?attr/selectableItemBackground"
+            android:background="@drawable/background_button_grey"
+            android:text="@string/button_123">
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="@dimen/keyboard_normal_button_width"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:onClick="@{viewModel::commaButtonClick}"
+            android:layout_marginLeft="@dimen/keyboard_left_margin"
+            android:foreground="?attr/selectableItemBackground"
+            android:background="@drawable/background_button_white"
+            android:text="@string/button_comma">
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="@dimen/keyboard_space_button_width"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:onClick="@{viewModel::spaceButtonClick}"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/keyboard_left_margin"
+            android:foreground="?attr/selectableItemBackground"
+            android:background="@drawable/background_button_space"
+            android:text="@string/button_space">
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="@dimen/keyboard_normal_button_width"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="@{viewModel::dotButtonClick}"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/keyboard_left_margin"
+            android:foreground="?attr/selectableItemBackground"
+            android:background="@drawable/background_button_small_grey"
+            android:text="@string/button_dot">
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="@dimen/keyboard_123_button_width"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/keyboard_left_margin"
+            android:onClick="@{viewModel::returnButtonClick}"
+            android:foreground="?attr/selectableItemBackground"
+            android:background="@drawable/background_button_arrow"
+            android:text="@string/button_dot">
+        </androidx.appcompat.widget.AppCompatTextView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

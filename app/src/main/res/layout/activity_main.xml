@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+        <import type="android.view.View"></import>
+            <variable
+                name="viewModel"
+                type="com.keyboardai42.viewmodel.MainActivityViewModel" />
+    </data>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/keyboard_left_margin"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/icon_attachment"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content">
+                </androidx.appcompat.widget.AppCompatImageView>
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et"
+                    android:background="@drawable/field_input"
+                    android:layout_width="wrap_content"
+                    android:hint="@string/message"
+                    android:paddingTop="@dimen/keyboard_bottom_margin"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/keyboard_left_margin"
+                    android:paddingLeft="@dimen/keyboard_left_margin"
+                    android:paddingBottom="@dimen/keyboard_bottom_margin"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content">
+                </androidx.appcompat.widget.AppCompatEditText>
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/send_icon"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content">
+                </androidx.appcompat.widget.AppCompatImageView>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/keyboardLayout"
+                android:visibility="gone"
+                android:animateLayoutChanges="true"
+                android:background="@color/keyboard_back_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/keyboard_bottom_margin"
+                android:orientation="vertical">
+                <include layout="@layout/row_audio" android:id="@+id/row_audio"></include>
+                <include layout="@layout/row_two" android:id="@+id/row_two"></include>
+                <include layout="@layout/row_three" android:id="@+id/row_three"></include>
+                <include layout="@layout/row_four" android:id="@+id/row_four"></include>
+                <include layout="@layout/row_five" android:id="@+id/row_five"></include>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/keyboardLayout2"
+                android:animateLayoutChanges="true"
+                android:visibility="gone"
+                android:background="@color/keyboard_back_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/keyboard_bottom_margin"
+                android:orientation="vertical">
+                <include layout="@layout/row_audio_2" android:id="@+id/row_audio_2"></include>
+                <include layout="@layout/row_one" android:id="@+id/row_two_2"></include>
+                <include layout="@layout/row_three_2" android:id="@+id/row_three_2"></include>
+                <include layout="@layout/row_four_2" android:id="@+id/row_four_2"></include>
+                <include layout="@layout/row_five_2" android:id="@+id/row_five_2"></include>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </RelativeLayout>
+</layout>

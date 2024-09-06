@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">KeyboardAI42</string>
+    <string name="button_123">\?123</string>
+    <string name="button_ABC">ABC</string>
+    <string name="button_comma">,</string>
+<!--    row four-->
+    <string name="button_z">z</string>
+    <string name="button_x">x</string>
+    <string name="button_c">c</string>
+    <string name="button_v">v</string>
+    <string name="button_b">b</string>
+    <string name="button_n">n</string>
+    <string name="button_m">m</string>
+<!--    row three-->
+    <string name="button_a">a</string>
+    <string name="button_s">s</string>
+    <string name="button_d">d</string>
+    <string name="button_f">f</string>
+    <string name="button_g">g</string>
+    <string name="button_h">h</string>
+    <string name="button_j">j</string>
+    <string name="button_k">k</string>
+    <string name="button_l">l</string>
+
+    <!--    row two-->
+
+    <string name="button_q">q</string>
+    <string name="button_w">w</string>
+    <string name="button_e">e</string>
+    <string name="button_r">r</string>
+    <string name="button_t">t</string>
+    <string name="button_y">y</string>
+    <string name="button_u">u</string>
+    <string name="button_i">i</string>
+    <string name="button_o">o</string>
+    <string name="button_p">p</string>
+
+    <!--    row one-->
+
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="button_0">0</string>
+
+    <string name="button_dot">.</string>
+    <string name="button_arrow">-></string>
+    <string name="button_space">Space</string>
+    <string name="suggestion_text">Suggested text</string>
+    <string name="message">Message...</string>
+
+    <!--    row four cap-->
+    <string name="button_z_cap">Z</string>
+    <string name="button_x_cap">X</string>
+    <string name="button_c_cap">C</string>
+    <string name="button_v_cap">V</string>
+    <string name="button_b_cap">B</string>
+    <string name="button_n_cap">N</string>
+    <string name="button_m_cap">M</string>
+    <!--    row three-->
+    <string name="button_a_cap">A</string>
+    <string name="button_s_cap">S</string>
+    <string name="button_d_cap">D</string>
+    <string name="button_f_cap">F</string>
+    <string name="button_g_cap">G</string>
+    <string name="button_h_cap">H</string>
+    <string name="button_j_cap">J</string>
+    <string name="button_k_cap">K</string>
+    <string name="button_l_cap">L</string>
+
+    <!--    row two-->
+
+    <string name="button_q_cap">Q</string>
+    <string name="button_w_cap">W</string>
+    <string name="button_e_cap">E</string>
+    <string name="button_r_cap">R</string>
+    <string name="button_t_cap">T</string>
+    <string name="button_y_cap">Y</string>
+    <string name="button_u_cap">U</string>
+    <string name="button_i_cap">I</string>
+    <string name="button_o_cap">O</string>
+    <string name="button_p_cap">P</string>
+
+    <!--    row three 2-->
+    <string name="button_minus">-</string>
+    <string name="button_slash">/</string>
+    <string name="button_two_dot">:</string>
+    <string name="button_semicolon">;</string>
+    <string name="button_left_parenthesis">(</string>
+    <string name="button_right_parenthesis">)</string>
+    <string name="button_and">&amp;</string>
+    <string name="button_and_keyboard3">=\\%</string>
+    <string name="button_plus">+</string>
+    <string name="button_braces">\"</string>
+
+    <!--    buttons-->
+    <string name="cancel">Cancel</string>
+
+    <!--    plugin text-->
+    <string name="heading">KB Plugin V0-6</string>
+    <string name="v0">V0</string>
+    <string name="v1">V1</string>
+    <string name="v2">V2</string>
+    <string name="v3">V3</string>
+    <string name="v4">V4</string>
+    <string name="v5">V5</string>
+    <string name="v6">V6</string>
+    <string name="v7">V7</string>
+    <string name="v0_text">Basic KB plugin hello world\nEnd every 30 messages of freemium with\n“Written by AI42 Keyboard”</string>
+    <string name="v4_text">“R” See referral bonus from shared DL links</string>
+    <string name="v6_text">"C1" // Cycle Config to C2,3,4… (change config in Webapp) configure in our app</string>
+    <string name="v5_text">Add to Do commands:\n
+“Find 4 memes” (eg KnowYourMeme .com),\n
+“Find 2 gifs” (from GIPHY .com),\n
+“Say it in the voice of celeb“,\n
+“Sing it as a song in the style of song/artist”\n
+“Make a movie clip in X Style”</string>
+    <string name="v3_text">📢 Turn on/off watermark, needs paid to turn off completely\n\n
+
+🧑‍💻 Generate short code to link KB to webapp. Paste code into webapp. Users will be able to see their history in webapp, and do more there.</string>
+    <string name="v2_text">"+Frn" // Friendly Style. Toggle +/-.\n\n
+
+“S+” // Change Frn Style to next style in Config. Def: Frn Pro Fun Fny Kul Mor Les Poe\n\n
+
+💪 Turn on context, tell users it means we have to store their recent convo </string>
+    <string name="v1_text">Sends mic to API for whisper, LLM, Dalle-3 (or PR2/SD), Search Web.\n\n
+
+Buttons:\n\n
+
+“On” // toggles normal keyboard on/off\n\n
+
+“⌨️” // fixes any typos\n\n
+
+“❓” // explains product &amp; buttons\n\n
+
+“⚙️” // like tg "/"\n\n
+
+🔨 // Commands. Say “Draw a pic”, “Search”,\n\n
+
+“-🎤” Exclude Voice. +V= Include Voice\n\n
+
+“+🩳” Add short version at top. Toggle +/-\n\n
+
+“🧰” power user explain how to use python, files, etc</string>
+</resources>
